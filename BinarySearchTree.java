@@ -51,7 +51,6 @@ public class BinarySearchTree<Key extends Comparable> {
             } else if (cmp > 0) {
                 current = current.right;
             } else {
-                // Found it!
                 return current.counter;
             }
         }
